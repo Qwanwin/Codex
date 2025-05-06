@@ -14,18 +14,17 @@ adb push codex /data/local/tmp/
 ```bash
 adb shell
 su
-chmod 777 /data/local/tmp/codex
+chmod 777 /data/local/tmp/CODEX
 ```
-
 3. Run:
 ```bash
 cd /data/local/tmp
-./codex <package_name>
+./CODEX <package_name>
 ```
 
 Example:
 ```bash
-./codex com.example.app
+./CODEX com.example.app
 ```
 
 Note: Root access required to run this tool.
@@ -40,8 +39,20 @@ Copy file to /data/local/tmp/
 
 Give permission manual
 
----
-Telegram Information 
+![Preview](screenshots/permission.jpg)
 
+open your terminal 
+
+```bash
+su
+```
+```bash
+cd /data/local/tmp/CODEX
+```
+```bash
+./CODEX com.example.app
+```
+Telegram Information 
+---
 @Qwanwin | @codex4444
 ```
