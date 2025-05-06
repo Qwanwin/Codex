@@ -1,7 +1,25 @@
+```markdown
+# CODEX
 
-```
-𝗖 𝗢 𝗗 𝗘 𝗫 
-```
+█▀▀ █▀█ █▀▄ █▀▀ ▀▄▀
+█▄▄ █▄█ █▄▀ ██▄ █░█
+
+Advanced DEX Dumper Tool
+
+## Description
+CODEX is a powerful memory-based DEX file extraction tool designed for Android applications. It scans process memory to locate and dump DEX files from running applications.
+
+## Core Features
+- DEX file memory scanning
+- Dump dex in protection app
+- Support All arm
+
+## Details
+- Language: C++
+- Target: Android OS
+- Root Required: Yes
+- Memory Access: /proc/pid/mem
+- File Format: DEX
 
 ## Installation & Usage
 
@@ -33,7 +51,7 @@ Output files will be saved in:
 ```
 /data/local/tmp/dex_dump_[package_name]/
 ```
-# Alternative Run
+## Alternative Run
 
 Copy file to /data/local/tmp/
 
@@ -55,4 +73,3 @@ cd /data/local/tmp/CODEX
 Telegram Information 
 ---
 @Qwanwin | @codex4444
-```
