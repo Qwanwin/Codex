@@ -13,11 +13,21 @@ CODEX is a powerful memory-based DEX file extraction tool designed for Android a
 - Dump dex in protection app
 - Support All arm
 
+## Update V2
+- add Dobby implement hook
+- Memory hook
+- optimize dex
+- fix duplicate
+- Multi dex fixed
+- Atomic operations
+- Improved PID detection
+- improved Thread
+- Fixed constructor initialization
+
 ## Details
 - Language: C++
 - Target: Android OS
 - Root Required: Yes
-- Memory Access: /proc/pid/mem
 - File Format: DEX
 
 ## Installation & Usage
@@ -31,7 +41,7 @@ adb push codex /data/local/tmp/
 ```bash
 adb shell
 su
-chmod 777 /data/local/tmp/CODEX
+chmod 777 /data/local/tmp/file in here 
 ```
 3. Run:
 ```bash
