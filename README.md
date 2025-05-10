@@ -33,9 +33,9 @@ CODEX is a powerful memory-based DEX file extraction tool designed for Android a
 ## Installation & Usage
 
 1. Push file to device:
-```bash
+
 adb push codex /data/local/tmp/
-```
+
 
 2. Set permissions:
 ```bash
