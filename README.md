@@ -38,7 +38,7 @@ adb push codex /data/local/tmp/
 
 
 2. Set permissions:
-```bash
+
 adb shell
 su
 chmod 777 /data/local/tmp/file in here 
